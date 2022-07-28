@@ -10,7 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Table(name = "candidate")
+@Table(name = "tweet")
 class Tweet {
     boolean blockTweet;
     @Id

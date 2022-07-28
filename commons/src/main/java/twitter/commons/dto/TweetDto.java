@@ -1,4 +1,4 @@
-package twitter.web.dto;
+package twitter.commons.dto;
 
 public record TweetDto(String text,
                        String username,
