@@ -1,4 +1,4 @@
-package twitter.core;
+package twitter.core.message;
 
 public class EvenOddService {
     public String isEvenOrOdd(Integer number) {
