@@ -12,11 +12,11 @@ import lombok.*;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Table(name = "tweet")
 class Tweet {
-    boolean blockTweet;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false)
     private Long id;
+    boolean blockTweet;
     private String text;
     private String username;
     private String profileImg;
