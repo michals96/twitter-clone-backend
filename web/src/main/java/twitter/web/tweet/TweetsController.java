@@ -8,7 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import twitter.commons.dto.TweetDto;
+import twitter.commons.tweet.dto.TweetDto;
 import twitter.commons.tweet.ITweetService;
 
 @RestController
