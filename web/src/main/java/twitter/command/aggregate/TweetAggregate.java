@@ -20,6 +20,7 @@ public class TweetAggregate {
 
     @CommandHandler
     public TweetAggregate(CreateTweetCommand command) {
+        // waliduj cos
         AggregateLifecycle.apply(new TweetCreatedEvent(command.getTweetId(), command.getText()));
     }
 

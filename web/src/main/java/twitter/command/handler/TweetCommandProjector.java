@@ -9,7 +9,7 @@ import twitter.repository.TweetRepository;
 
 @Service
 @RequiredArgsConstructor
-public class TweetCommandHandler {
+public class TweetCommandProjector {
     private final TweetRepository tweetRepository;
 
     @EventHandler
